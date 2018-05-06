@@ -32,3 +32,7 @@ deploy:
     tags: false
     repo: TwrpBuilder/android_device_Smartron_rimo02a
     branch: master
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
